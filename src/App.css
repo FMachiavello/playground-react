@@ -1,38 +1,40 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url(//db.onlinewebfonts.com/c/2c37f3699d9728b566e9bdc5b11e5180?family=BeaufortW01-Regular);
+
+html,
+body {
+  font-size: 1.2em;
+  background-color: rgb(1, 10, 19);
+  color: rgb(200, 155, 60);
+}
+
+h1{
+  font-family: 'Beaufort--Regular';
+  font-weight: bold;
+  max-width: 940px;
+  font-size: 2.5em;
+  line-height: 1.1;
+  margin: 40px 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.App{
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-container{
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }

@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import {Testimony} from './components/Testimony';
+import data from './data/champions.json'
 
 function App() {
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='main-container'>
+        <h1>Esto es lo que dice nuestro equipo:</h1>
+        {data.map( champion=>
+          <Testimony
+            name={champion.name}
+            hood={champion.hood}
+            role={champion.role}
+            testimony={champion.testimony}
+          />
+        )}
+        
+        
+      </div>
+      
+      
     </div>
   );
 }

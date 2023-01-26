@@ -1,0 +1,20 @@
+[
+  {
+    "name":"Aatrox",
+    "hood":"Boedo",
+    "role":"Toplaner",
+    "testimony":"Aatrox y sus hermanos, que alguna vez fueron respetados defensores de Shurima contra el Vacío, se convirtieron en una amenaza aún mayor para Runaterra y los derrotaron con hechicería mortal usada con astucia."
+  },
+  {
+    "name":"Viego",
+    "hood":"Parque patricios",
+    "role":"Jungler",
+    "testimony":"Controla a los letales Harrowings a la vez que explora Runaterra en búsqueda de cualquier cosa que pueda, algún día, traer de regreso a su esposa. Además, destruye todo a su paso mientras la Niebla Negra brota sin cesar de su cruel y roto corazón."
+  },
+  {
+    "name":"Zed",
+    "hood":"Wilde",
+    "role":"Midlaner",
+    "testimony":"El líder de la Orden de la Sombra, una organización que él creó con la intención de militarizar las tradiciones de artes marciales y mágicas de Jonia para repeler a los invasores noxianos."
+  }
+]
